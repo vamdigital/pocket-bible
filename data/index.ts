@@ -204,13 +204,15 @@ export const Books: Book[] = [
     id: 14,
     bookName: "2 Chronicles",
     testament: "Old",
-    bookGist: "Starting with the account of the rule of King Solomon to his successor - his son - and to the history of the southern Kingdom of Judah until the fall of Jerusalem.",
+    bookGist:
+      "Starting with the account of the rule of King Solomon to his successor - his son - and to the history of the southern Kingdom of Judah until the fall of Jerusalem.",
     bookScripture: [
       {
         chapter: "7:14",
-        verse: "..if they pray to me and repent and turn away from the evil they have been doing, then I will hear them in heaven, forgive their sins, and make their land prosperous again"
-      }
-    ]
+        verse:
+          "..if they pray to me and repent and turn away from the evil they have been doing, then I will hear them in heaven, forgive their sins, and make their land prosperous again",
+      },
+    ],
   },
   {
     id: 15,

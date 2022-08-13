@@ -24,12 +24,16 @@ export const BibleBooks = ({ Books }: Props) => {
               {bookScripture.map(({ chapter, verse }) => {
                 return (
                   <li key={verse} className="flex flex-col mt-2">
-                    <div className="mb-2 text-slate-600"> <em> {verse}</em> <span className="text-blue-500 text-md ">[{chapter}] </span> </div>
+                    <div className="mb-2 text-slate-600">
+                      {" "}
+                      <em> {verse}</em>{" "}
+                      <span className="text-blue-500 text-md ">
+                        [{chapter}]{" "}
+                      </span>{" "}
+                    </div>
                   </li>
                 );
               })}
-
-
             </ul>
             <div className="flex justify-evenly mt-4 mb-4 items-center w-full">
               {index !== 0 && (
