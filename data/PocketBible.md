@@ -356,6 +356,11 @@ In this second letter to the church at Thessalonica, Paul tells of the Lord's co
 'May the Lord lead you into a greater understanding of God's love and the endurance that is given by Christ' (3:5)
 'In the name of the Lord Jesus Christ we command these people and warn them to lead orderly lives and work to earn their own living'(3:12)
 
+# 1 Timothy
+
+Timothy, a young Christian, became a companion and assistant to paul in his missionary work. In this first letter to Timothy, Paul warns him of false teachings within the church. He illustrates the need for avoiding evil practices and how to be a good servant of Jesus Christ, and about the responsibilities he has towards various groups of believers.
+'Do not let anyone look down on you because you are young, but be an example of the believers in your speech, your conduct, your love, faith and purity.' (4:12)
+
 # 2 Timothy
 
 This second letter gives final instructions and encouragement from Paul to Timothy. The main theme is endurance and to do his duty as an evangelist and teacher in the face of suffering and opposition.
@@ -397,6 +402,11 @@ The first letter from Peter was written to the Christians - God's chosen people 
 The second letter from Peter tells of his concern with the teaching that Christ will not return again. He encourages the readers to hold firm to the true knowledge of God and of the Lord Jesus Christ as told to them by those who witnessed Jesus' ministry first hand.
 
 'God's divine power has given us everything we need to live a truly religious life through our knowledge of the one who called us to share in his own glory and goodness' (1:3)
+
+# 1 John
+
+The first letter of John encourages the readers to live in fellowship with God and with his Son, Jesus Christ, and warns against following false teachings that would destroy their fellowship. He emphasised that Jesus Christ was a real human being, and all who believed in him must also love one another.
+'Whoever does not love does not know God, for God is love.' (4:8)
 
 # 2 John
 
