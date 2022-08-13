@@ -40,7 +40,6 @@ const Home: NextPage = () => {
             >
               Turn to
             </a>
-
           </div>
         </header>
         {/* This would a component that gets rendered in the loop of books */}

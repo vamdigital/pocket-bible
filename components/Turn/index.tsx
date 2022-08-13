@@ -190,7 +190,13 @@ export const Turn = () => {
         </ul>
       </div>
       <div className="flex flex-col justify-center items-center mt-8">
-        <a href="#prayer" className="text-xl text-blue-500 border-b border-blue-300"> A Prayer</a>
+        <a
+          href="#prayer"
+          className="text-xl text-blue-500 border-b border-blue-300"
+        >
+          {" "}
+          A Prayer
+        </a>
       </div>
     </div>
   );
