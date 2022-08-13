@@ -5,6 +5,7 @@ export interface BookScripture {
 export interface Book {
   id: number;
   bookName: string;
+  bookUrl: string;
   bookGist: string;
   bookScripture: BookScripture[];
   testament: "Old" | "New";
@@ -15,6 +16,8 @@ export const Books: Book[] = [
     id: 1,
     testament: "Old",
     bookName: "Genesis",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Genesis+1&version=NIV",
     bookGist:
       "The first book of the Bible tells of the creation of the universe and how man was placed upon it, and God was pleased with all that he saw, until the disobedience of mankind made God decide to put an end to all things and sent the great waters to flood the earth. After which God made his promise to Noah.",
     bookScripture: [
@@ -28,6 +31,8 @@ export const Books: Book[] = [
   {
     id: 2,
     bookName: "Exodus",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Exodus+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book tells of the departure of the nation of Israel from Egypt and the birth and early life of Moses.",
@@ -42,6 +47,8 @@ export const Books: Book[] = [
   {
     id: 3,
     bookName: "Leviticus",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Leviticus+1&version=NIV",
     testament: "Old",
     bookGist:
       "The main theme of this book is the holiness of God and the ways in which his people were to worship and live.",
@@ -56,6 +63,8 @@ export const Books: Book[] = [
   {
     id: 4,
     bookName: "Numbers",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Numbers+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book tells of the history of the Israelites and their journey from Egypt to the promised land of Canaan.",
@@ -70,6 +79,8 @@ export const Books: Book[] = [
   {
     id: 5,
     bookName: "Deuteronomy",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Deuteronomy+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book is the conclusion of the journey to the promised land. Moses speaks to his people reminding them of how God has saved and blessed his chosen people, whom he loves.",
@@ -84,6 +95,8 @@ export const Books: Book[] = [
   {
     id: 6,
     bookName: "Joshua",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Joshua+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Joshua is the story of the Israelites invasion of Canaan under the leadership of Joshua and includes the famous Battle of Jericho.",
@@ -101,6 +114,8 @@ export const Books: Book[] = [
   {
     id: 7,
     bookName: "Judges",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Judges+1&version=NIV",
     testament: "Old",
     bookGist:
       "This books is composed of stories about the national heroes of the time. One of the better known being Samson, whose story is related in chapters 13-16.",
@@ -115,6 +130,7 @@ export const Books: Book[] = [
   {
     id: 8,
     bookName: "Ruth",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Ruth+1&version=NIV",
     testament: "Old",
     bookGist:
       "A peaceful story - set in violent times showing the early ancestry of Jesus and the remarkable story of Naomi, Ruth and Boaz and how love comes to those in faith, yet disaster when God&apos;s people turn away from HIM.",
@@ -129,6 +145,8 @@ export const Books: Book[] = [
   {
     id: 9,
     bookName: "1 Samuel",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Samuel+1&version=NIV",
     testament: "Old",
     bookGist:
       "The first book of Samuel records the change from the period of judges to the monarchy and of the last judge Samuel to Israel&apos;s first king Saul and also David. The main theme of this book is that faithfulness of God brings success, whilst disobedience brings disaster.",
@@ -147,6 +165,8 @@ export const Books: Book[] = [
   {
     id: 10,
     bookName: "2 Samuel",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Samuel+1&version=NIV",
     testament: "Old",
     bookGist:
       "The sequel to the first Samuel is the history of David&apos;s reign as king. He is shown to be a man of deep faith and devotion to God, and could also win the loyalty of his people. At the same time he could be ruthless and commit sins to achieve his ambitions - but he confesses and accepts the punishment that God sends",
@@ -161,6 +181,8 @@ export const Books: Book[] = [
   {
     id: 11,
     bookName: "1 Kings",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Kings+1&version=NIV",
     testament: "Old",
     bookGist:
       "Continuing the history of the Israelite monarchy and the succession of Solomon as King of Israel and Judah, on the death of his father David. It is the story of the building of the Temple in Jerusalem and the division of the kingdom.",
@@ -175,6 +197,8 @@ export const Books: Book[] = [
   {
     id: 12,
     bookName: "2 Kings",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Kings+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book tells of the fall of Samaria through to the destruction of Jerusalem and on the Elijah&apos;s successor - Elisha. National disasters were the result of the unfaithfulness of the kings and the people of Israel and Judah, which lead into one of the great turning points in the Israelite history.",
@@ -189,6 +213,8 @@ export const Books: Book[] = [
   {
     id: 13,
     bookName: "1 Chronicles",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Chronicles+1&version=NIV",
     testament: "Old",
     bookGist:
       "The same events of Samuel and Kings but from a different point of view. To show that, in spite of the disasters, God still kept his promises. He was working out his plan for his people through the great acheivements of David and Solomon and to all the people who remained faithful.",
@@ -203,6 +229,8 @@ export const Books: Book[] = [
   {
     id: 14,
     bookName: "2 Chronicles",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Chronicles+1&version=NIV",
     testament: "Old",
     bookGist:
       "Starting with the account of the rule of King Solomon to his successor - his son - and to the history of the southern Kingdom of Judah until the fall of Jerusalem.",
@@ -217,6 +245,7 @@ export const Books: Book[] = [
   {
     id: 15,
     bookName: "Ezra",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Ezra+1&version=NIV",
     testament: "Old",
     bookGist:
       "Tells of the return of the Jews from exile, the rebuilding of the Temple and the religious reformation of the people.",
@@ -231,6 +260,8 @@ export const Books: Book[] = [
   {
     id: 16,
     bookName: "Nehemiah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Nehemiah+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book tells of the return of Nehemiah to Jerusalem to govern Judah, the rebuilding of the walls of Jerusalem, and the reading of the Law of God and the people&apos;s confession.",
@@ -245,6 +276,8 @@ export const Books: Book[] = [
   {
     id: 17,
     bookName: "Esther",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Esther+1&version=NIV",
     testament: "Old",
     bookGist:
       "The events of the book of Esther tell of the beautiful Hebrew queen and her elevation to the throne, and how she overthrew the conspiracy for the slaughter of the Jews.",
@@ -259,6 +292,7 @@ export const Books: Book[] = [
   {
     id: 18,
     bookName: "Job",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Job+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Job is the story of a good man who suffers total disaster. It explains his suffering and his questioning of the Lord. It tells of his anger and although he does not lose faith, he realises the divine power of God and his wisdom so much that he repents of his wild and angry words. God reprimands Job&apos;s friends for failing to understand the meaning of his suffering, but Job is restored to even greater prosperity through his faith.",
@@ -273,6 +307,7 @@ export const Books: Book[] = [
   {
     id: 19,
     bookName: "Psalms",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Psalm+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Psalms is the hymn book and prayer book of the Bible. It is a collection which was used by the people of Israel in their worship. It includes hymns of praise and worship and prayers for help, protection and salvation as well as pleas for forgiveness and songs of thanksgiving.",
@@ -296,6 +331,8 @@ export const Books: Book[] = [
   {
     id: 20,
     bookName: "Proverbs",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Proverbs+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Proverbs is a collection of moral as well as religious teachings, much of it to do with practical, everyday matters such as family relations, business dealings, humility, patience and respect for the poor and loyalty to friends.",
@@ -310,6 +347,8 @@ export const Books: Book[] = [
   {
     id: 21,
     bookName: "Ecclesiastes",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Ecclesiastes+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book contains the thoughts of a man who reflected deeply on human life. It has many negative thoughts which are depressing yet which can be overcome by the hope that God gives.",
@@ -329,6 +368,8 @@ export const Books: Book[] = [
   {
     id: 22,
     bookName: "Song of Songs",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Song+of+Songs+1&version=NIV",
     testament: "Old",
     bookGist:
       "The Song of Songs is a series of love poems written by Solomon as celebration of love between a man and a woman. These songs are often interpreted as a picture of the relationship between Christ and the Church.",
@@ -347,6 +388,8 @@ export const Books: Book[] = [
   {
     id: 23,
     bookName: "Isaiah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Isaiah+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book is named after the great prophet Isaiah who tells, among other things of the coming of Jesus the Messiah. It also tells of how the people who listened and obeyed the Lord were rewarded, whilst those left in Exile without hope were set free and taken home to Jerusalem to start a new life. Jesus made particular reference to several words from Isaiah in his early ministry to express his calling.",
@@ -361,6 +404,8 @@ export const Books: Book[] = [
   {
     id: 24,
     bookName: "Jeremiah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Jeremiah+1&version=NIV",
     testament: "Old",
     bookGist:
       "The prophet Jeremiah warned God&apos;s people of the catastrophe that was to fall on their nation, he also foretold of the eventual return of the people from exile in Babylonia and the restoration of the nation. Jeremiah was a sensitive man who loved his people deeply.",
@@ -380,6 +425,8 @@ export const Books: Book[] = [
   {
     id: 25,
     bookName: "Lamentations",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Lamentations+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Lamentations is a collection of five poems, possibly written by Jeremiah. It mourns the destruction of Jerusalem, of its ruin and exile, and yet through all of this the message is to trust in God and hope for future.",
@@ -399,6 +446,8 @@ export const Books: Book[] = [
   {
     id: 26,
     bookName: "Ezekiel",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Ezekiel+1&version=NIV",
     testament: "Old",
     bookGist:
       "The prophet Ezekiel lived in exile in Babylon, and his message was for the people of Jerusalem and the exiles in Babylonia. He was man of deep faith and imagination and he spoke of God&apos;s judgement on Israel and also the future blessings of God and the salvation of his people.",
@@ -418,6 +467,8 @@ export const Books: Book[] = [
   {
     id: 27,
     bookName: "Daniel",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Daniel+1&version=NIV",
     testament: "Old",
     bookGist:
       "Daniel was a Jew in exile in Babylon, and was greatly blessed by God. This book was written when the Jews were suffering under a pagan king. Through their faith and obedience they triumphed over their enemies.",
@@ -432,6 +483,7 @@ export const Books: Book[] = [
   {
     id: 28,
     bookName: "Hosea",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Hosea+1&version=NIV",
     testament: "Old",
     bookGist:
       "The prophet Hosea was especially concerned about the idolatry of the people and their faithfulness towards God. He has a disastrous marriage to an unfaithful wife and used this is an example to tell the people of the sadness God feels because of their unfaithfulness. Yet through all this God&apos;s constant love for his people would win the nation back to himself and restore the relationship.",
@@ -446,6 +498,7 @@ export const Books: Book[] = [
   {
     id: 29,
     bookName: "Joel",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Joel+1&version=NIV",
     testament: "Old",
     bookGist:
       "Little is known about the prophet Joel, but it is believed he lived during the time of the Persian Empire. He calls to the people to repent and warns them of God&apos;s impending judgement. He describes a terrible invasion of locusts and a devastating drought in Palestine. He also foretold of the coming of the Holy Spirit to all his believers.",
@@ -460,6 +513,7 @@ export const Books: Book[] = [
   {
     id: 30,
     bookName: "Amos",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Amos+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Amos deals with a time of great prosperity, notable religious piety and apparent security. But the prophet saw that this was limited to the wealthy and that it fed on injustice and oppression of the poor. Amos preached with great passion and courage that God would punish the nation if it did not turn from their idolatry and oppresion.",
@@ -474,6 +528,8 @@ export const Books: Book[] = [
   {
     id: 31,
     bookName: "Obadiah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Obadiah+1&version=NIV",
     testament: "Old",
     bookGist:
       "This short book has only one chapter. It teaches, through the example of Edom, that God will punish those who trouble his people.",
@@ -488,6 +544,7 @@ export const Books: Book[] = [
   {
     id: 32,
     bookName: "Jonah",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Jonah+1&version=NIV",
     testament: "Old",
     bookGist:
       "Unlike other books of the Bible the book Jonah is in narrative form decribing the adventures of the prophet who tried to disobey God&apos;s command. He was caught in a violent storm at sea, swallowed by a great fish, yet kept alive by God to carry out his mission. It portrays God&apos;s absolute sovereignty over his creation, and how he is a God of love and mercy, who forgave and save the enemies of his people, rather than punish them.",
@@ -502,6 +559,7 @@ export const Books: Book[] = [
   {
     id: 33,
     bookName: "Micah",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Micah+1&version=NIV",
     testament: "Old",
     bookGist:
       "The prophet Micah warns Judah of a national catastrophe, caused by the injustice of the people. But he also sees hope for the future, and foretells of a descendant of David who will bring peace to the nation.",
@@ -516,6 +574,7 @@ export const Books: Book[] = [
   {
     id: 34,
     bookName: "Nahum",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Nahum+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Nahum is a poem, celebrating the fall of Nineveh, the capital city of Israel&apos;s oppresive enemy, the Assyrians. It is seen as the judgement of God upon a cruel and arrogant nation.",
@@ -530,6 +589,8 @@ export const Books: Book[] = [
   {
     id: 35,
     bookName: "Habakkuk",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Habakkuk+1&version=NIV",
     testament: "Old",
     bookGist:
       "The book of Habakkuk shows how he was deeply disturbed by the violence of the cruel Babylonians, who were in power at the time, and he questions the Lord on his silence. The Lord&apos;s answer was that he would take action in his own good time. It concludes with a psalm celebrating the greatness of God and of Habakkuk&apos;s own great faith.",
@@ -544,6 +605,8 @@ export const Books: Book[] = [
   {
     id: 36,
     bookName: "Zephaniah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Zephaniah+1&version=NIV",
     testament: "Old",
     bookGist:
       "The prophet Zephaniah foretold a time of doom and destruction when Judah would be punished for the worship of other gods. Other nations would be punished also, yet although Jerusalem was doomeed it would be restored.",
@@ -558,6 +621,8 @@ export const Books: Book[] = [
   {
     id: 37,
     bookName: "Haggai",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Haggai+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book is collection of moral as well as religious messages given from the Lord through the prophet Haggai. After the people had returned from exile to live in Jerusalem, some years later the Temple still lay in ruins. Haggai&apos;s message urged the people to rebuild the Temple and the Lord promises prosperity and peace for the future.",
@@ -572,6 +637,8 @@ export const Books: Book[] = [
   {
     id: 38,
     bookName: "Zechariah",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Zechariah+1&version=NIV",
     testament: "Old",
     bookGist:
       "This book is in two parts - the first being the prophet&apos;s visions, the second more of his messages, mostly relating to the coming of Jesus the Messiah and the final judgement.",
@@ -590,6 +657,8 @@ export const Books: Book[] = [
   {
     id: 39,
     bookName: "Malachi",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Malachi+1&version=NIV",
     testament: "Old",
     bookGist:
       "The last book of the Old Testament. The prophet&apos;s main concern is to call priests and people to renew their faithfulness to their covenant with God. The day of the Lord is coming!",
@@ -604,6 +673,8 @@ export const Books: Book[] = [
   {
     id: 40,
     bookName: "Matthew",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Matthew+1&version=NIV",
     testament: "New",
     bookGist:
       "The Gospel according to Matthew begins with the birth of Jesus, his baptism and temptation, and then on to his ministry of preaching, teaching and healing in Galileel. After this it then tells of Jesus&apos; journey to Jerusalem, culmination his sacrifice and resurrenction.",
@@ -637,6 +708,7 @@ export const Books: Book[] = [
   {
     id: 41,
     bookName: "Mark",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Mark+1&version=NIV",
     testament: "New",
     bookGist:
       "The Gospel according to Mark presents the story of Jesus in a straightforward way. More emphasis on what Jesus did, rather than his words and teachings. As time passed, the followers of Jesus came to understand him better, but his opponents became more hostile.",
@@ -655,6 +727,7 @@ export const Books: Book[] = [
   {
     id: 42,
     bookName: "Luke",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Luke+1&version=NIV",
     testament: "New",
     bookGist:
       "It is believed that Luke was a physician, and his Gospel is filled with concern for people in all kinds of need. He also stressed the humanity of Jesus and his sacrifice on our behalf. Throughout the Gospel, great emphasis is placed on prayer, the Holy Spirit, the role of women in the ministry of Jesus and God&apos;s forgiveness of sins.",
@@ -677,6 +750,7 @@ export const Books: Book[] = [
   {
     id: 43,
     bookName: "John",
+    bookUrl: "https://www.biblegateway.com/passage/?search=John+1&version=NIV",
     testament: "New",
     bookGist:
       "The Gospel according to John presents various miracles which showed that Jesus was the promised Saviour - the Son of God. He gives an eyewitness account of Jesus&apos; ministry, emphasising that by believing in him we will have eternal life.",
@@ -700,6 +774,7 @@ export const Books: Book[] = [
   {
     id: 44,
     bookName: "Acts of Apostles",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Acts+1&version=NIV",
     testament: "New",
     bookGist:
       "This is a continuation of the Gospel according to Luke. IT is the story of the early Christians, the coming of the Holy Spirit on the day of Pentecost and the work of spreading the Good News of Jesus to the ends of the earth.",
@@ -723,6 +798,8 @@ export const Books: Book[] = [
   {
     id: 45,
     bookName: "Romans",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Romans+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul&apos;s letter to the people of Rome was written to Christians there in preparation of his visit. He emphasises the righteousness that comes from faith, and he takes up such themes as service to God, the duty of Christians to the state and to one another, and questions of conscience.",
@@ -746,6 +823,8 @@ export const Books: Book[] = [
   {
     id: 46,
     bookName: "1 Corinthians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Corinthians+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul&apos;s first letter to the church in Corinth was written to deal with the problems of Christian life that had arisen amongst the Christians there. The most widely known passage in this book - chapter 13 - presents love as the greatest of the fruit of the Spirit.",
@@ -765,6 +844,8 @@ export const Books: Book[] = [
   {
     id: 47,
     bookName: "2 Corinthians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Corinthians+1&version=NIV",
     testament: "New",
     bookGist:
       "In his second letter to the Corinthians, Paul defends his own authority as some members of the church there had made strong attacks against him. He tells of his deep longing for reconciliation with the people and his great joy when this is brought about.",
@@ -784,6 +865,8 @@ export const Books: Book[] = [
   {
     id: 48,
     bookName: "Galatians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Galatians+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul&apos;s letter to the Galatians was written in order to bring back to true faith those who were being misled by false teachings within the church. He tells how, through the love that results from faith in Christ, the people can be put right with God.",
@@ -803,6 +886,8 @@ export const Books: Book[] = [
   {
     id: 49,
     bookName: "Ephesians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Ephesians+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul&apos;s letter to the church in Ephesus is an encouraging letter, developing the theme of unity and appealing to all to live their life in oneness with Jesus Christ. Everything is seen in the light of Christ&apos;s love, grace and purity.",
@@ -822,6 +907,8 @@ export const Books: Book[] = [
   {
     id: 50,
     bookName: "Philippians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Philippians+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul wrote this letter to the church in Philippi, to offer them thanks for their gift to him in his time of need. It also reassured them so that they might have courage and confidence in spite of all their troubles, and reminds them that their life is union with Christ is a gift of God&apos;s grace.",
@@ -841,6 +928,8 @@ export const Books: Book[] = [
   {
     id: 51,
     bookName: "Colossians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Colossians+1&version=NIV",
     testament: "New",
     bookGist:
       "Paul writes this letter to the church in Colossae, after he found that false teachings were driving a wedge in the church, moving them away from Christian truth. After warning against these teachings, he urges them all to turn to Jesus Christ through whom God created the world.",
@@ -860,6 +949,8 @@ export const Books: Book[] = [
   {
     id: 52,
     bookName: "1 Thessalonians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Thessalonians+1&version=NIV",
     testament: "New",
     bookGist:
       "In this first book, written to the people of Thessalonica where a new church had been established, Paul commended them for their faitfulness and love and encouraged them to continue working quietly for the Gospel while waiting in hope for Christ&apos;s return.",
@@ -879,6 +970,8 @@ export const Books: Book[] = [
   {
     id: 53,
     bookName: "2 Thessalonians",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Thessalonians+1&version=NIV",
     testament: "New",
     bookGist:
       "In this second letter to the church at Thessalonica, Paul tells of the Lord&apos;s coming, he encourages the people to remain steady in their faith, to work for a living, as Paul did, and persevere in doing good.",
@@ -899,6 +992,8 @@ export const Books: Book[] = [
   {
     id: 54,
     bookName: "1 Timothy",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Timothy+1&version=NIV",
     testament: "New",
     bookGist:
       "Timothy, a young Christian, became a companion and assistant to paul in his missionary work. In this first letter to Timothy, Paul warns him of false teachings within the church. He illustrates the need for avoiding evil practices and how to be a good servant of Jesus Christ, and about the  responsibilities he has towards various groups of believers.",
@@ -913,6 +1008,8 @@ export const Books: Book[] = [
   {
     id: 55,
     bookName: "2 Timothy",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Timothy+1&version=NIV",
     testament: "New",
     bookGist:
       "This second letter gives final instructions and encouragement from Paul to Timothy. The main theme is endurance and to do his duty as an evangelist and teacher in the face of suffering and opposition.",
@@ -932,6 +1029,7 @@ export const Books: Book[] = [
   {
     id: 56,
     bookName: "Titus",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Titus+1&version=NIV",
     testament: "New",
     bookGist:
       "Titus was a Gentile convert to Christianity who became a fellow worker and assistant to Paul on the island of Crete. This letter from Paul expresses his main concerns for the church and advises Titus regarding Christian conduct and the need to be peaceful and friendly.",
@@ -951,6 +1049,8 @@ export const Books: Book[] = [
   {
     id: 57,
     bookName: "Philemon",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Philemon+1&version=NIV",
     testament: "New",
     bookGist:
       "Philemon was a prominent Christian from Colossae, and owed a slave name Onesimus. The slave ran away from his master, and eventually came in contact with Paul. Onesimus was converted by Paul who sent the slave back to his master. This letter appeals to Philemon to be reconciled to Onesimus and to treat him as a forgiven salve and a Christian brother.",
@@ -965,6 +1065,8 @@ export const Books: Book[] = [
   {
     id: 58,
     bookName: "Hebrews",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Hebrews+1&version=NIV",
     testament: "New",
     bookGist:
       "This letter was written to a group of Christians who, faced with increasing opposition, were in danger of abandoning their faith. By citing the example of the faith of some famous characters in Israel&apos;s history, it appeals to them to continue faithful to the end, with eyes fixed on Jesus.",
@@ -984,6 +1086,7 @@ export const Books: Book[] = [
   {
     id: 59,
     bookName: "James",
+    bookUrl: "https://www.biblegateway.com/passage/?search=James+1&version=NIV",
     testament: "New",
     bookGist:
       "The letter from James emphasises the importance of actions along with faith. A variety of other topics are dealt with, including patience and prayer in the practice of the Christian religion.",
@@ -998,6 +1101,8 @@ export const Books: Book[] = [
   {
     id: 60,
     bookName: "1 Peter",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+Peter+1&version=NIV",
     testament: "New",
     bookGist:
       "The first letter from Peter was written to the Christians - God&apos;s chosen people - who lived in Asia Minor. It encourages those facing persecution and suffering for their faith, by reminding them of the death, resurrection and promised coming of the Lord Jesus Christ, and that they will be rewarded on that day when Jesus Christ is revealed.",
@@ -1012,6 +1117,8 @@ export const Books: Book[] = [
   {
     id: 61,
     bookName: "2 Peter",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+Peter+1&version=NIV",
     testament: "New",
     bookGist:
       "The second letter from Peter tells of his concern with the teaching that Christ will not return again. He encourages the readers to hold firm to the true knowledge of God and of the Lord Jesus Christ as told to them by those who witnessed Jesus&apos; ministry first hand.",
@@ -1026,6 +1133,8 @@ export const Books: Book[] = [
   {
     id: 62,
     bookName: "1 John",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=1+John+1&version=NIV",
     testament: "New",
     bookGist:
       "The first letter of John encourages the readers to live in fellowship with God and with his Son, Jesus Christ, and warns against following false teachings that would destroy their fellowship. He emphasised that Jesus Christ was a real human being, and all who believed in him must also love one another.",
@@ -1039,6 +1148,8 @@ export const Books: Book[] = [
   {
     id: 63,
     bookName: "2 John",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=2+John+1&version=NIV",
     testament: "New",
     bookGist:
       "The second letter of John was probably addressed to a local church and its members, appealing to them to love one another and warning them against false teachers and their teachings.",
@@ -1053,6 +1164,8 @@ export const Books: Book[] = [
   {
     id: 64,
     bookName: "3 John",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=3+John+1&version=NIV",
     testament: "New",
     bookGist:
       "The third letter of John praises a man named Gaius for his hospitality toward other Christians, and warns against a man called Diotrephes.",
@@ -1072,6 +1185,7 @@ export const Books: Book[] = [
   {
     id: 65,
     bookName: "Jude",
+    bookUrl: "https://www.biblegateway.com/passage/?search=Jude+1&version=NIV",
     testament: "New",
     bookGist:
       "The letter from Jude encourages all who read it to fight for the faith which, once and for all, God has given his people.",
@@ -1086,6 +1200,8 @@ export const Books: Book[] = [
   {
     id: 66,
     bookName: "Revelation",
+    bookUrl:
+      "https://www.biblegateway.com/passage/?search=Revelation+1&version=NIV",
     testament: "New",
     bookGist:
       "The revelation to John was written in a time when Christians were being persecuted. In beautiful, symbolic language it encourages and warns believers concerning the events leading up to the end of this age and the coming of a new heaven and a new earth.",
