@@ -19,21 +19,23 @@ export const BibleBooks = ({ Books }: Props) => {
             <h2 className="text-3xl border-b border-slate-500 text-slate-600 mb-4">
               {bookName}
             </h2>
-            <p className="text-slate-500">{bookGist}</p>
-            {bookScripture.map(({ chapter, verse }) => {
-              return (
-                <React.Fragment key={verse}>
-                  <em>{verse}</em>
-                  <p>{chapter}</p>
-                </React.Fragment>
-              );
-            })}
+            <p className="text-slate-500 mb-4">{bookGist}</p>
+            <ul>
+              {bookScripture.map(({ chapter, verse }) => {
+                return (
+                  <li key={verse} className="flex flex-col mt-2">
+                    <div className="mb-2 text-slate-600"> <em> {verse}</em> <span className="text-blue-500 text-md ">[{chapter}] </span> </div>
+                  </li>
+                );
+              })}
 
+
+            </ul>
             <div className="flex justify-evenly mt-4 mb-4 items-center w-full">
               {index !== 0 && (
                 <a
                   href={`#${id - 1}`}
-                  className="px-4 py-2 bg-slate-300 text-slate-500 hover:bg-slate-500 hover:text-slate-300 transition-all delay-75"
+                  className="px-4 py-2 bg-slate-500 text-slate-300 hover:bg-slate-300 hover:text-slate-500 transition-all delay-75"
                 >
                   {Books[id - 2]?.bookName}
                 </a>
@@ -41,7 +43,7 @@ export const BibleBooks = ({ Books }: Props) => {
               {index >= 0 && lastIdx !== index && (
                 <a
                   href={`#${id + 1}`}
-                  className="px-4 py-2 bg-slate-300 text-slate-500 hover:bg-slate-500 hover:text-slate-300 transition-all delay-75"
+                  className="px-4 py-2 bg-slate-500 text-slate-300 hover:bg-slate-300 hover:text-slate-500 transition-all delay-75"
                 >
                   {Books[id]?.bookName}
                 </a>

@@ -202,6 +202,18 @@ export const Books: Book[] = [
   },
   {
     id: 14,
+    bookName: "2 Chronicles",
+    testament: "Old",
+    bookGist: "Starting with the account of the rule of King Solomon to his successor - his son - and to the history of the southern Kingdom of Judah until the fall of Jerusalem.",
+    bookScripture: [
+      {
+        chapter: "7:14",
+        verse: "..if they pray to me and repent and turn away from the evil they have been doing, then I will hear them in heaven, forgive their sins, and make their land prosperous again"
+      }
+    ]
+  },
+  {
+    id: 15,
     bookName: "Ezra",
     testament: "Old",
     bookGist:
@@ -215,7 +227,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     bookName: "Nehemiah",
     testament: "Old",
     bookGist:
@@ -229,7 +241,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     bookName: "Esther",
     testament: "Old",
     bookGist:
@@ -243,7 +255,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     bookName: "Job",
     testament: "Old",
     bookGist:
@@ -257,7 +269,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     bookName: "Psalms",
     testament: "Old",
     bookGist:
@@ -280,7 +292,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     bookName: "Proverbs",
     testament: "Old",
     bookGist:
@@ -294,7 +306,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     bookName: "Ecclesiastes",
     testament: "Old",
     bookGist:
@@ -313,7 +325,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     bookName: "Song of Songs",
     testament: "Old",
     bookGist:
@@ -331,7 +343,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 22,
+    id: 23,
     bookName: "Isaiah",
     testament: "Old",
     bookGist:
@@ -345,7 +357,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 23,
+    id: 24,
     bookName: "Jeremiah",
     testament: "Old",
     bookGist:
@@ -364,7 +376,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 24,
+    id: 25,
     bookName: "Lamentations",
     testament: "Old",
     bookGist:
@@ -383,7 +395,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 25,
+    id: 26,
     bookName: "Ezekiel",
     testament: "Old",
     bookGist:
@@ -402,7 +414,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 26,
+    id: 27,
     bookName: "Daniel",
     testament: "Old",
     bookGist:
@@ -416,7 +428,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 27,
+    id: 28,
     bookName: "Hosea",
     testament: "Old",
     bookGist:
@@ -430,7 +442,7 @@ export const Books: Book[] = [
     ],
   },
   {
-    id: 28,
+    id: 29,
     bookName: "Joel",
     testament: "Old",
     bookGist:
@@ -440,20 +452,6 @@ export const Books: Book[] = [
         chapter: "2:13",
         verse:
           "...Come back to the Lord your God. He is kind and full of mercy; he is patient and keeps his promise; he is always ready to forgive and not punish",
-      },
-    ],
-  },
-  {
-    id: 29,
-    bookName: "Amos",
-    testament: "Old",
-    bookGist:
-      "The book of Amos deals with a time of great prosperity, notable religious piety and apparent security. But the prophet saw that this was limited to the wealthy and that it fed on injustice and oppression of the poor. Amos preached with great passion and courage that God would punish the nation if it did not turn from their idolatry and oppresion.",
-    bookScripture: [
-      {
-        chapter: "5:14",
-        verse:
-          "Make it your aim to do what is right, not what is evil, so that you may live. Then the Lord God Almighty really will be with you, as you claim he is.",
       },
     ],
   },
