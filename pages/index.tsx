@@ -15,6 +15,7 @@ const Home: NextPage = () => {
           name="description"
           content="Pocket Bible - Bible Reference on the go.."
         />
+        <meta property="og:title" content="Pocket Bible" key="Pocket Bible" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
