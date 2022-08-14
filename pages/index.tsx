@@ -16,6 +16,8 @@ const Home: NextPage = () => {
           content="Pocket Bible - Bible Reference on the go.."
         />
         <meta property="og:title" content="Pocket Bible" key="Pocket Bible" />
+        <meta property="og:url" content="https://pocket-bible.vercel.app" />
+        <meta property="og:description" content="A pocket reference Bible" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
