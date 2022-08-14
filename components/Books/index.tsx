@@ -17,7 +17,9 @@ export const BibleBooks = ({ Books }: Props) => {
               id={`${id}`}
               className="flex flex-col min-h-screen justify-center items-start"
             >
-              <h2 className="text-3xl text-slate-600 mt-6 md:mt-0 mb-4">{bookName}</h2>
+              <h2 className="text-3xl text-slate-600 mt-6 md:mt-0 mb-4">
+                {bookName}
+              </h2>
               <p className="text-slate-500 mb-4">{bookGist}</p>
               <ul>
                 {bookScripture.map(({ chapter, verse }) => {
