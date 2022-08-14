@@ -11,7 +11,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Pocket Bible</title>
-        <meta name="description" content="Pocket Bible - Bible Reference on the go.." />
+        <meta
+          name="description"
+          content="Pocket Bible - Bible Reference on the go.."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
