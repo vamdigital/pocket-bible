@@ -321,11 +321,6 @@ export const Books: Book[] = [
         verse:
           "Praise the Lord! Happy is the person who honours the Lord, who takes pleasure in obeying his commands",
       },
-      {
-        chapter: "23",
-        verse:
-          "The Lord is my shepherd; I have everything I need. He lets me rest in fields of green grass and leads me to quiet pools of fresh water. He gives me new strength. He guides me in the right paths, as he has promised. Even if I go through the deepest darkness, I will not be afraid. Lord, for you are with me. Your shepherds rod and staff protect me. You prepare a banquet for me, where all my enemies can see me; you welcome me as an honoured guest and fill my cup to the brim. I know that your goodness and love will be with me all my life; and your house will be my home as long as I live",
-      },
     ],
   },
   {
@@ -777,7 +772,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Acts+1&version=NIV",
     testament: "New",
     bookGist:
-      "This is a continuation of the Gospel according to Luke. IT is the story of the early Christians, the coming of the Holy Spirit on the day of Pentecost and the work of spreading the Good News of Jesus to the ends of the earth.",
+      "This is a continuation of the Gospel according to Luke. It is the story of the early Christians, the coming of the Holy Spirit on the day of Pentecost and the work of spreading the Good News of Jesus to the ends of the earth.",
     bookScripture: [
       {
         chapter: "1:8",

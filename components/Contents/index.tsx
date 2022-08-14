@@ -11,7 +11,7 @@ export const Contents = ({ Books }: Props) => {
   return (
     <div
       id="home"
-      className="flex flex-col md:h-screen justify-start items-flex-start"
+      className="flex flex-col min-h-screen justify-start items-flex-start"
     >
       <h1 className="text-3xl md:text-5xl text-center text-slate-600 uppercase mt-28 mb-8">
         Books of Bible
