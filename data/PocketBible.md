@@ -3,7 +3,7 @@
 The first book of the Bible tells of the creation of the universe and how man was placed upon it, and God was pleased with all that he saw, until the disobedience of mankind made God decide to put an end to all things
 and sent the great waters to flood the earth. After which God made his promise to Noah.
 
-'I am putting my bow in the clouds. It will be the sign of my covenant whith the world' (9:13)
+'I am putting my bow in the clouds. It will be the sign of my covenant with the world' (9:13)
 
 # Exodus
 

@@ -24,7 +24,7 @@ export const Books: Book[] = [
       {
         chapter: "9:13",
         verse:
-          "I am putting my bow in the clouds. It will be the sign of my covenant whith the world",
+          "I am putting my bow in the clouds. It will be the sign of my covenant with the world",
       },
     ],
   },
@@ -133,12 +133,12 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Ruth+1&version=NIV",
     testament: "Old",
     bookGist:
-      "A peaceful story - set in violent times showing the early ancestry of Jesus and the remarkable story of Naomi, Ruth and Boaz and how love comes to those in faith, yet disaster when God&apos;s people turn away from HIM.",
+      "A peaceful story - set in violent times showing the early ancestry of Jesus and the remarkable story of Naomi, Ruth and Boaz and how love comes to those in faith, yet disaster when God's people turn away from HIM.",
     bookScripture: [
       {
         chapter: "1:16",
         verse:
-          "Don&apos;t ask me to leave you! Let me go with you. Wherever you go, I will go: wherever you live, I will live. Your people will be my people, and your God will be my God.",
+          "Don't ask me to leave you! Let me go with you. Wherever you go, I will go: wherever you live, I will live. Your people will be my people, and your God will be my God.",
       },
     ],
   },
@@ -149,7 +149,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=1+Samuel+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The first book of Samuel records the change from the period of judges to the monarchy and of the last judge Samuel to Israel&apos;s first king Saul and also David. The main theme of this book is that faithfulness of God brings success, whilst disobedience brings disaster.",
+      "The first book of Samuel records the change from the period of judges to the monarchy and of the last judge Samuel to Israel's first king Saul and also David. The main theme of this book is that faithfulness of God brings success, whilst disobedience brings disaster.",
     bookScripture: [
       {
         chapter: "15:22",
@@ -169,7 +169,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=2+Samuel+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The sequel to the first Samuel is the history of David&apos;s reign as king. He is shown to be a man of deep faith and devotion to God, and could also win the loyalty of his people. At the same time he could be ruthless and commit sins to achieve his ambitions - but he confesses and accepts the punishment that God sends",
+      "The sequel to the first Samuel is the history of David's reign as king. He is shown to be a man of deep faith and devotion to God, and could also win the loyalty of his people. At the same time he could be ruthless and commit sins to achieve his ambitions - but he confesses and accepts the punishment that God sends",
     bookScripture: [
       {
         chapter: "22:2-3",
@@ -201,7 +201,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=2+Kings+1&version=NIV",
     testament: "Old",
     bookGist:
-      "This book tells of the fall of Samaria through to the destruction of Jerusalem and on the Elijah&apos;s successor - Elisha. National disasters were the result of the unfaithfulness of the kings and the people of Israel and Judah, which lead into one of the great turning points in the Israelite history.",
+      "This book tells of the fall of Samaria through to the destruction of Jerusalem and on the Elijah's successor - Elisha. National disasters were the result of the unfaithfulness of the kings and the people of Israel and Judah, which lead into one of the great turning points in the Israelite history.",
     bookScripture: [
       {
         chapter: "19:19",
@@ -264,7 +264,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Nehemiah+1&version=NIV",
     testament: "Old",
     bookGist:
-      "This book tells of the return of Nehemiah to Jerusalem to govern Judah, the rebuilding of the walls of Jerusalem, and the reading of the Law of God and the people&apos;s confession.",
+      "This book tells of the return of Nehemiah to Jerusalem to govern Judah, the rebuilding of the walls of Jerusalem, and the reading of the Law of God and the people's confession.",
     bookScripture: [
       {
         chapter: "9:1",
@@ -285,7 +285,7 @@ export const Books: Book[] = [
       {
         chapter: "4:14",
         verse:
-          "If you keep quiet at a time like this, help will come from heaven to the Jews, and they will be saved, but you will die and your father&apos;s family will come to an end. Yet how knows - maybe it was for a time like this that you were made queen!",
+          "If you keep quiet at a time like this, help will come from heaven to the Jews, and they will be saved, but you will die and your father's family will come to an end. Yet how knows - maybe it was for a time like this that you were made queen!",
       },
     ],
   },
@@ -295,7 +295,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Job+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The book of Job is the story of a good man who suffers total disaster. It explains his suffering and his questioning of the Lord. It tells of his anger and although he does not lose faith, he realises the divine power of God and his wisdom so much that he repents of his wild and angry words. God reprimands Job&apos;s friends for failing to understand the meaning of his suffering, but Job is restored to even greater prosperity through his faith.",
+      "The book of Job is the story of a good man who suffers total disaster. It explains his suffering and his questioning of the Lord. It tells of his anger and although he does not lose faith, he realises the divine power of God and his wisdom so much that he repents of his wild and angry words. God reprimands Job's friends for failing to understand the meaning of his suffering, but Job is restored to even greater prosperity through his faith.",
     bookScripture: [
       {
         chapter: "23:10",
@@ -403,7 +403,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Jeremiah+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The prophet Jeremiah warned God&apos;s people of the catastrophe that was to fall on their nation, he also foretold of the eventual return of the people from exile in Babylonia and the restoration of the nation. Jeremiah was a sensitive man who loved his people deeply.",
+      "The prophet Jeremiah warned God's people of the catastrophe that was to fall on their nation, he also foretold of the eventual return of the people from exile in Babylonia and the restoration of the nation. Jeremiah was a sensitive man who loved his people deeply.",
     bookScripture: [
       {
         chapter: "29:11",
@@ -429,7 +429,7 @@ export const Books: Book[] = [
       {
         chapter: "3:22:23",
         verse:
-          "The Lord&apos;s unfailing love and mercy still continue, fresh as the morning as sure as the sunrise.",
+          "The Lord's unfailing love and mercy still continue, fresh as the morning as sure as the sunrise.",
       },
       {
         chapter: "3:40-41",
@@ -445,7 +445,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Ezekiel+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The prophet Ezekiel lived in exile in Babylon, and his message was for the people of Jerusalem and the exiles in Babylonia. He was man of deep faith and imagination and he spoke of God&apos;s judgement on Israel and also the future blessings of God and the salvation of his people.",
+      "The prophet Ezekiel lived in exile in Babylon, and his message was for the people of Jerusalem and the exiles in Babylonia. He was man of deep faith and imagination and he spoke of God's judgement on Israel and also the future blessings of God and the salvation of his people.",
     bookScripture: [
       {
         chapter: "36:26",
@@ -471,7 +471,7 @@ export const Books: Book[] = [
       {
         chapter: "6:26-27",
         verse:
-          "I command that throughout my empire everyone should fear and respect Daniel&apos;s God. He is a living God, and he will rule for ever. His kingdom will never be destroyed, and his power will never come to an end. He saves and resuces; he performs wonders and miracles in heaven and on earth. He saved Daniel from being killed by the lions",
+          "I command that throughout my empire everyone should fear and respect Daniel's God. He is a living God, and he will rule for ever. His kingdom will never be destroyed, and his power will never come to an end. He saves and resuces; he performs wonders and miracles in heaven and on earth. He saved Daniel from being killed by the lions",
       },
     ],
   },
@@ -481,7 +481,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Hosea+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The prophet Hosea was especially concerned about the idolatry of the people and their faithfulness towards God. He has a disastrous marriage to an unfaithful wife and used this is an example to tell the people of the sadness God feels because of their unfaithfulness. Yet through all this God&apos;s constant love for his people would win the nation back to himself and restore the relationship.",
+      "The prophet Hosea was especially concerned about the idolatry of the people and their faithfulness towards God. He has a disastrous marriage to an unfaithful wife and used this is an example to tell the people of the sadness God feels because of their unfaithfulness. Yet through all this God's constant love for his people would win the nation back to himself and restore the relationship.",
     bookScripture: [
       {
         chapter: "2:19",
@@ -496,7 +496,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Joel+1&version=NIV",
     testament: "Old",
     bookGist:
-      "Little is known about the prophet Joel, but it is believed he lived during the time of the Persian Empire. He calls to the people to repent and warns them of God&apos;s impending judgement. He describes a terrible invasion of locusts and a devastating drought in Palestine. He also foretold of the coming of the Holy Spirit to all his believers.",
+      "Little is known about the prophet Joel, but it is believed he lived during the time of the Persian Empire. He calls to the people to repent and warns them of God's impending judgement. He describes a terrible invasion of locusts and a devastating drought in Palestine. He also foretold of the coming of the Holy Spirit to all his believers.",
     bookScripture: [
       {
         chapter: "2:13",
@@ -542,7 +542,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Jonah+1&version=NIV",
     testament: "Old",
     bookGist:
-      "Unlike other books of the Bible the book Jonah is in narrative form decribing the adventures of the prophet who tried to disobey God&apos;s command. He was caught in a violent storm at sea, swallowed by a great fish, yet kept alive by God to carry out his mission. It portrays God&apos;s absolute sovereignty over his creation, and how he is a God of love and mercy, who forgave and save the enemies of his people, rather than punish them.",
+      "Unlike other books of the Bible the book Jonah is in narrative form decribing the adventures of the prophet who tried to disobey God's command. He was caught in a violent storm at sea, swallowed by a great fish, yet kept alive by God to carry out his mission. It portrays God's absolute sovereignty over his creation, and how he is a God of love and mercy, who forgave and save the enemies of his people, rather than punish them.",
     bookScripture: [
       {
         chapter: "2:7",
@@ -572,7 +572,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Nahum+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The book of Nahum is a poem, celebrating the fall of Nineveh, the capital city of Israel&apos;s oppresive enemy, the Assyrians. It is seen as the judgement of God upon a cruel and arrogant nation.",
+      "The book of Nahum is a poem, celebrating the fall of Nineveh, the capital city of Israel's oppresive enemy, the Assyrians. It is seen as the judgement of God upon a cruel and arrogant nation.",
     bookScripture: [
       {
         chapter: "1:7",
@@ -588,7 +588,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Habakkuk+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The book of Habakkuk shows how he was deeply disturbed by the violence of the cruel Babylonians, who were in power at the time, and he questions the Lord on his silence. The Lord&apos;s answer was that he would take action in his own good time. It concludes with a psalm celebrating the greatness of God and of Habakkuk&apos;s own great faith.",
+      "The book of Habakkuk shows how he was deeply disturbed by the violence of the cruel Babylonians, who were in power at the time, and he questions the Lord on his silence. The Lord's answer was that he would take action in his own good time. It concludes with a psalm celebrating the greatness of God and of Habakkuk's own great faith.",
     bookScripture: [
       {
         chapter: "3:2",
@@ -620,7 +620,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Haggai+1&version=NIV",
     testament: "Old",
     bookGist:
-      "This book is collection of moral as well as religious messages given from the Lord through the prophet Haggai. After the people had returned from exile to live in Jerusalem, some years later the Temple still lay in ruins. Haggai&apos;s message urged the people to rebuild the Temple and the Lord promises prosperity and peace for the future.",
+      "This book is collection of moral as well as religious messages given from the Lord through the prophet Haggai. After the people had returned from exile to live in Jerusalem, some years later the Temple still lay in ruins. Haggai's message urged the people to rebuild the Temple and the Lord promises prosperity and peace for the future.",
     bookScripture: [
       {
         chapter: "2:9",
@@ -636,7 +636,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Zechariah+1&version=NIV",
     testament: "Old",
     bookGist:
-      "This book is in two parts - the first being the prophet&apos;s visions, the second more of his messages, mostly relating to the coming of Jesus the Messiah and the final judgement.",
+      "This book is in two parts - the first being the prophet's visions, the second more of his messages, mostly relating to the coming of Jesus the Messiah and the final judgement.",
     bookScripture: [
       {
         chapter: "1:3",
@@ -656,7 +656,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Malachi+1&version=NIV",
     testament: "Old",
     bookGist:
-      "The last book of the Old Testament. The prophet&apos;s main concern is to call priests and people to renew their faithfulness to their covenant with God. The day of the Lord is coming!",
+      "The last book of the Old Testament. The prophet's main concern is to call priests and people to renew their faithfulness to their covenant with God. The day of the Lord is coming!",
     bookScripture: [
       {
         chapter: "3:18",
@@ -672,7 +672,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Matthew+1&version=NIV",
     testament: "New",
     bookGist:
-      "The Gospel according to Matthew begins with the birth of Jesus, his baptism and temptation, and then on to his ministry of preaching, teaching and healing in Galileel. After this it then tells of Jesus&apos; journey to Jerusalem, culmination his sacrifice and resurrenction.",
+      "The Gospel according to Matthew begins with the birth of Jesus, his baptism and temptation, and then on to his ministry of preaching, teaching and healing in Galileel. After this it then tells of Jesus' journey to Jerusalem, culmination his sacrifice and resurrenction.",
     bookScripture: [
       {
         chapter: "21:9",
@@ -691,12 +691,12 @@ export const Books: Book[] = [
       {
         chapter: "6:9-13",
         verse:
-          "The Lord&apos;s Prayer - Our Father in heaven: May your holy name be honoured: may your kingdom come; may your will be done on earth as it is in heaven. Give us today the food we need. Forgive us the wrongs we have done, as we forgive the wrongs that others have done to us. Do not bring us to hard testing, but keep us safe from the Evil one.",
+          "The Lord's Prayer - Our Father in heaven: May your holy name be honoured: may your kingdom come; may your will be done on earth as it is in heaven. Give us today the food we need. Forgive us the wrongs we have done, as we forgive the wrongs that others have done to us. Do not bring us to hard testing, but keep us safe from the Evil one.",
       },
       {
         chapter: "28:18-20",
         verse:
-          "The Great Commission - Jesus drew near and said to them, &apos;I have been give all authority in the heaven and on earth. Go then, to all peoples everywhere and make them my disciples: baptise them in the name of the Father, the Son and the Holy Spirit, and teach them to obey everything I have commanded you. And I will be with you always, to the end of the age.&apos;",
+          "The Great Commission - Jesus drew near and said to them, 'I have been give all authority in the heaven and on earth. Go then, to all peoples everywhere and make them my disciples: baptise them in the name of the Father, the Son and the Holy Spirit, and teach them to obey everything I have commanded you. And I will be with you always, to the end of the age.'",
       },
     ],
   },
@@ -725,7 +725,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=Luke+1&version=NIV",
     testament: "New",
     bookGist:
-      "It is believed that Luke was a physician, and his Gospel is filled with concern for people in all kinds of need. He also stressed the humanity of Jesus and his sacrifice on our behalf. Throughout the Gospel, great emphasis is placed on prayer, the Holy Spirit, the role of women in the ministry of Jesus and God&apos;s forgiveness of sins.",
+      "It is believed that Luke was a physician, and his Gospel is filled with concern for people in all kinds of need. He also stressed the humanity of Jesus and his sacrifice on our behalf. Throughout the Gospel, great emphasis is placed on prayer, the Holy Spirit, the role of women in the ministry of Jesus and God's forgiveness of sins.",
     bookScripture: [
       {
         chapter: "11:28",
@@ -748,7 +748,7 @@ export const Books: Book[] = [
     bookUrl: "https://www.biblegateway.com/passage/?search=John+1&version=NIV",
     testament: "New",
     bookGist:
-      "The Gospel according to John presents various miracles which showed that Jesus was the promised Saviour - the Son of God. He gives an eyewitness account of Jesus&apos; ministry, emphasising that by believing in him we will have eternal life.",
+      "The Gospel according to John presents various miracles which showed that Jesus was the promised Saviour - the Son of God. He gives an eyewitness account of Jesus' ministry, emphasising that by believing in him we will have eternal life.",
     bookScripture: [
       {
         chapter: "3:16",
@@ -797,12 +797,12 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Romans+1&version=NIV",
     testament: "New",
     bookGist:
-      "Paul&apos;s letter to the people of Rome was written to Christians there in preparation of his visit. He emphasises the righteousness that comes from faith, and he takes up such themes as service to God, the duty of Christians to the state and to one another, and questions of conscience.",
+      "Paul's letter to the people of Rome was written to Christians there in preparation of his visit. He emphasises the righteousness that comes from faith, and he takes up such themes as service to God, the duty of Christians to the state and to one another, and questions of conscience.",
     bookScripture: [
       {
         chapter: "1:16",
         verse:
-          "I have complete confidence in the gospel; it is God&apos;s power to save all who believe, first the Jews and also the Gentiles.",
+          "I have complete confidence in the gospel; it is God's power to save all who believe, first the Jews and also the Gentiles.",
       },
       {
         chapter: "8:28",
@@ -822,7 +822,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=1+Corinthians+1&version=NIV",
     testament: "New",
     bookGist:
-      "Paul&apos;s first letter to the church in Corinth was written to deal with the problems of Christian life that had arisen amongst the Christians there. The most widely known passage in this book - chapter 13 - presents love as the greatest of the fruit of the Spirit.",
+      "Paul's first letter to the church in Corinth was written to deal with the problems of Christian life that had arisen amongst the Christians there. The most widely known passage in this book - chapter 13 - presents love as the greatest of the fruit of the Spirit.",
     bookScripture: [
       {
         chapter: "2:9",
@@ -853,7 +853,7 @@ export const Books: Book[] = [
       {
         chapter: "6:2",
         verse:
-          "...Listen! This is the hour to receive God&apos;s favour; today is the day to be saved!",
+          "...Listen! This is the hour to receive God's favour; today is the day to be saved!",
       },
     ],
   },
@@ -864,7 +864,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Galatians+1&version=NIV",
     testament: "New",
     bookGist:
-      "Paul&apos;s letter to the Galatians was written in order to bring back to true faith those who were being misled by false teachings within the church. He tells how, through the love that results from faith in Christ, the people can be put right with God.",
+      "Paul's letter to the Galatians was written in order to bring back to true faith those who were being misled by false teachings within the church. He tells how, through the love that results from faith in Christ, the people can be put right with God.",
     bookScripture: [
       {
         chapter: "2:16",
@@ -885,7 +885,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Ephesians+1&version=NIV",
     testament: "New",
     bookGist:
-      "Paul&apos;s letter to the church in Ephesus is an encouraging letter, developing the theme of unity and appealing to all to live their life in oneness with Jesus Christ. Everything is seen in the light of Christ&apos;s love, grace and purity.",
+      "Paul's letter to the church in Ephesus is an encouraging letter, developing the theme of unity and appealing to all to live their life in oneness with Jesus Christ. Everything is seen in the light of Christ's love, grace and purity.",
     bookScripture: [
       {
         chapter: "1:3",
@@ -906,7 +906,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Philippians+1&version=NIV",
     testament: "New",
     bookGist:
-      "Paul wrote this letter to the church in Philippi, to offer them thanks for their gift to him in his time of need. It also reassured them so that they might have courage and confidence in spite of all their troubles, and reminds them that their life is union with Christ is a gift of God&apos;s grace.",
+      "Paul wrote this letter to the church in Philippi, to offer them thanks for their gift to him in his time of need. It also reassured them so that they might have courage and confidence in spite of all their troubles, and reminds them that their life is union with Christ is a gift of God's grace.",
     bookScripture: [
       {
         chapter: "1:21",
@@ -948,7 +948,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=1+Thessalonians+1&version=NIV",
     testament: "New",
     bookGist:
-      "In this first book, written to the people of Thessalonica where a new church had been established, Paul commended them for their faitfulness and love and encouraged them to continue working quietly for the Gospel while waiting in hope for Christ&apos;s return.",
+      "In this first book, written to the people of Thessalonica where a new church had been established, Paul commended them for their faitfulness and love and encouraged them to continue working quietly for the Gospel while waiting in hope for Christ's return.",
     bookScripture: [
       {
         chapter: "3:12",
@@ -969,12 +969,12 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=2+Thessalonians+1&version=NIV",
     testament: "New",
     bookGist:
-      "In this second letter to the church at Thessalonica, Paul tells of the Lord&apos;s coming, he encourages the people to remain steady in their faith, to work for a living, as Paul did, and persevere in doing good.",
+      "In this second letter to the church at Thessalonica, Paul tells of the Lord's coming, he encourages the people to remain steady in their faith, to work for a living, as Paul did, and persevere in doing good.",
     bookScripture: [
       {
         chapter: "3:5",
         verse:
-          "May the Lord lead you into a greater understanding of God&apos;s love and the endurance that is given by Christ",
+          "May the Lord lead you into a greater understanding of God's love and the endurance that is given by Christ",
       },
       {
         chapter: "3:12",
@@ -1012,7 +1012,7 @@ export const Books: Book[] = [
       {
         chapter: "2:15",
         verse:
-          "Do your best to win full approval in God&apos;s sight, as a worker who is not ashamed of his work, one who correctly teaches the message of God&apos;s truth.",
+          "Do your best to win full approval in God's sight, as a worker who is not ashamed of his work, one who correctly teaches the message of God's truth.",
       },
       {
         chapter: "3:12",
@@ -1064,7 +1064,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=Hebrews+1&version=NIV",
     testament: "New",
     bookGist:
-      "This letter was written to a group of Christians who, faced with increasing opposition, were in danger of abandoning their faith. By citing the example of the faith of some famous characters in Israel&apos;s history, it appeals to them to continue faithful to the end, with eyes fixed on Jesus.",
+      "This letter was written to a group of Christians who, faced with increasing opposition, were in danger of abandoning their faith. By citing the example of the faith of some famous characters in Israel's history, it appeals to them to continue faithful to the end, with eyes fixed on Jesus.",
     bookScripture: [
       {
         chapter: "11:1",
@@ -1100,7 +1100,7 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=1+Peter+1&version=NIV",
     testament: "New",
     bookGist:
-      "The first letter from Peter was written to the Christians - God&apos;s chosen people - who lived in Asia Minor. It encourages those facing persecution and suffering for their faith, by reminding them of the death, resurrection and promised coming of the Lord Jesus Christ, and that they will be rewarded on that day when Jesus Christ is revealed.",
+      "The first letter from Peter was written to the Christians - God's chosen people - who lived in Asia Minor. It encourages those facing persecution and suffering for their faith, by reminding them of the death, resurrection and promised coming of the Lord Jesus Christ, and that they will be rewarded on that day when Jesus Christ is revealed.",
     bookScripture: [
       {
         chapter: "2:21",
@@ -1116,12 +1116,12 @@ export const Books: Book[] = [
       "https://www.biblegateway.com/passage/?search=2+Peter+1&version=NIV",
     testament: "New",
     bookGist:
-      "The second letter from Peter tells of his concern with the teaching that Christ will not return again. He encourages the readers to hold firm to the true knowledge of God and of the Lord Jesus Christ as told to them by those who witnessed Jesus&apos; ministry first hand.",
+      "The second letter from Peter tells of his concern with the teaching that Christ will not return again. He encourages the readers to hold firm to the true knowledge of God and of the Lord Jesus Christ as told to them by those who witnessed Jesus' ministry first hand.",
     bookScripture: [
       {
         chapter: "1:3",
         verse:
-          "God&apos;s divine power has given us everything we need to live a truly religious life through our knowledge of the one who called us to share in his own glory and goodness",
+          "God's divine power has given us everything we need to live a truly religious life through our knowledge of the one who called us to share in his own glory and goodness",
       },
     ],
   },
@@ -1152,7 +1152,7 @@ export const Books: Book[] = [
       {
         chapter: "1:6",
         verse:
-          "This love I speak of means that we must live in obedience to God&apos;s command. The command, as you have all heard from the beginning, is that you must all live in love",
+          "This love I speak of means that we must live in obedience to God's command. The command, as you have all heard from the beginning, is that you must all live in love",
       },
     ],
   },
