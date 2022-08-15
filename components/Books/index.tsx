@@ -42,7 +42,7 @@ export const BibleBooks = ({ Books }: Props) => {
                 className="mb-6 text-slate-400 mt-4 border-b border-blue-400"
                 rel="noreferrer"
               >
-                Read More
+                {`Read ${bookName}`}
               </a>
               <div></div>
               <div className="flex justify-evenly mt-4 mb-4 items-center w-full">
