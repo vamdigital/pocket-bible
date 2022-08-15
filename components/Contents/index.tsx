@@ -26,7 +26,7 @@ export const Contents = ({ Books }: Props) => {
               return (
                 <div key={id}>
                   <a
-                    href={`#${id}`}
+                    href={`#${bookName.replace(" ", "")}`}
                     className="text-md p-1 flex border-b border-blue-300"
                   >
                     {bookName}
@@ -45,7 +45,7 @@ export const Contents = ({ Books }: Props) => {
               return (
                 <div key={id}>
                   <a
-                    href={`#${id}`}
+                    href={`#${bookName.replace(" ", "")}`}
                     className="text-md p-1 flex border-b border-blue-300"
                   >
                     {bookName}

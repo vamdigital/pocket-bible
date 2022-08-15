@@ -14,7 +14,7 @@ export const BibleBooks = ({ Books }: Props) => {
           return (
             <div
               key={id}
-              id={`${id}`}
+              id={`${bookName.replace(" ", "")}`}
               className="flex flex-col min-h-screen justify-center items-start"
             >
               <h2 className="text-3xl text-slate-600 mt-6 md:mt-0 mb-4">
@@ -48,7 +48,7 @@ export const BibleBooks = ({ Books }: Props) => {
               <div className="flex justify-evenly mt-4 mb-4 items-center w-full">
                 {index !== 0 && (
                   <a
-                    href={`#${id - 1}`}
+                    href={`#${Books[id - 2].bookName.replace(" ", "")}`}
                     className="px-4 py-2 bg-slate-500 text-slate-300 hover:bg-slate-300 hover:text-slate-500 transition-all delay-75"
                   >
                     {Books[id - 2]?.bookName}
@@ -56,7 +56,7 @@ export const BibleBooks = ({ Books }: Props) => {
                 )}
                 {index >= 0 && lastIdx !== index && (
                   <a
-                    href={`#${id + 1}`}
+                    href={`#${Books[id].bookName.replace(" ", "")}`}
                     className="px-4 py-2 bg-slate-500 text-slate-300 hover:bg-slate-300 hover:text-slate-500 transition-all delay-75"
                   >
                     {Books[id]?.bookName}
